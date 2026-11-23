@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .matrica {
+        width: fit-content;
+        height: 50px;
+        background-color: yellow;
+        padding: 0.5rem;
+        font-size: 2rem;
+      }
+
+      .matrica-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+      }
+    </style>
+    <!-- Több matrica -->
+
+    <!-- Több matrica flexboxban -->
+    <div class="matrica-flex">
+      <div class="matrica">@1</div>
+      <div class="matrica">@2</div>
+      <div class="matrica">@3</div>
+    </div>
+
+    <br />
+    <!-- Több matrica grid-ben: -->
+    <div class="matrica-grid">
+      <div class="matrica">@__1</div>
+      <div class="matrica">@___2</div>
+      <div class="matrica">@_3</div>
+    </div>
+  </body>
+</html>
